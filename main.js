@@ -17,7 +17,7 @@ const opponent = {
     health: 100,
 }
 
-while (opponent.health >= -1){
+while (opponent.health >= 5){
     let start = prompt("Choose which character you want to fight: 1 for Blossom, 2 for Bubbles, or 3 for Buttercup.");
     if (start === null) {
         console.log("You have left the game.");
