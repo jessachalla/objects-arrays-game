@@ -17,13 +17,13 @@ const opponent = {
     health: 100,
 }
 
-while (opponent.health >= 5){
+while (opponent.health >= 0){
     let start = prompt("Choose which character you want to fight: 1 for Blossom, 2 for Bubbles, or 3 for Buttercup.");
     if (start === null) {
         console.log("You have left the game.");
         break;
     }
-    else if (opponent.health < 1){
+    else if (opponent.health < 5){
         console.log("YOU HAVE DEFETED MOJO JOJO!")
     }
     else if (start === "1") {
